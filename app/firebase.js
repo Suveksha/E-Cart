@@ -1,18 +1,19 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
-import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID",
+  apiKey: "AIzaSyDbwoFnHYzAzp6nwfeY4Q_71d5nZnOYHJM",
+  authDomain: "fir-prime-touch.firebaseapp.com",
+  projectId: "fir-prime-touch",
+  storageBucket: "fir-prime-touch.appspot.com",
+  messagingSenderId: "323956829902",
+  appId: "1:323956829902:web:62dce327203d158768ea9f"
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
