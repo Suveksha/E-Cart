@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { UserAuth } from "../context/AuthContext";
+import { doc, setDoc } from "firebase/firestore"; 
+import { db } from "../firebase";
 
 const Navbar = () => {
   const { user, googleSignIn, logOut } = UserAuth();
